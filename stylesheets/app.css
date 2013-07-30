@@ -79,6 +79,15 @@
    Index
 ----------------------------------------- */
 
+.call-today {
+	margin-top: 35px;
+}
+
+.phone {
+	font-size: 54px;
+	color: #156fb5;
+}
+
 .blue-bg {
 	background-image:url('../images/version_a/blue_background.jpg');
 }
