@@ -32,6 +32,14 @@
 	padding-bottom: 15px;
 }
 
+.white-font {
+	color: white;
+}
+
+.white-font h4 {
+	color: white;
+}
+
 
 /* -----------------------------------------
    Index
@@ -39,6 +47,10 @@
 
 .selling-points {
 	background-image:url('../images/version_a/blue_background.jpg');
+}
+
+.blog-entry {
+	background-image:url('../images/version_a/blog/blog_background.jpg');
 }
 
 
