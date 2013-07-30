@@ -27,12 +27,19 @@
 	visibility: hidden;
 }
 
+.top-bot-padded {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
 
 /* -----------------------------------------
-   Page Name 1
+   Index
 ----------------------------------------- */
 
-
+.selling-points {
+	background-image:url('../images/version_a/blue_background.jpg');
+}
 
 
 /* -----------------------------------------
