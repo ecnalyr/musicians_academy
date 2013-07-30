@@ -59,6 +59,11 @@
 	float: left;
 }
 
+.white-font h1 {
+	color: white;
+	background-color: #156fb5;
+}
+
 
 /* -----------------------------------------
    Index
