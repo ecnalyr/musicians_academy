@@ -88,6 +88,11 @@
 	color: #156fb5;
 }
 
+.main-header {
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
 .blue-bg {
 	background-image:url('../images/version_a/blue_background.jpg');
 }
