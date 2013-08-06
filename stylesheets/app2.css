@@ -45,6 +45,14 @@
 	padding-bottom: 15px;
 }
 
+.logo-div {
+	background-color: white;
+}
+
+.below-logo-div {
+	margin-top: 250px;
+}
+
 .white-font {
 	color: white;
 }
