@@ -198,4 +198,11 @@ h3 {
 	color: white;
 }
 
+/* -----------------------------------------
+   Why Us?
+----------------------------------------- */
+
+.blue-white-bg {
+	background-image:url('../images/version_a/why_us_background.jpg');
+}
 
