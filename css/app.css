@@ -45,6 +45,10 @@
 	padding-bottom: 15px;
 }
 
+.top-padded {
+	padding-top: 15px;
+}
+
 .logo-div {
 	background-color: white;
 }
