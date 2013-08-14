@@ -179,4 +179,14 @@ h3 {
 	margin-bottom: 1px;
 }
 
+.sidebar {
+	background-color: #156fb5;
+	text-align: center;
+	font-family: "bebas_neueregular";
+}
+
+.sidebar h3 {
+	color: white;
+}
+
 

@@ -1329,7 +1329,7 @@ button, .button {
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
-    background-color: #e9e9e9;
+    background-color: #fff;
     border-color: #d0d0d0;
     color: #333333; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
