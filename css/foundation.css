@@ -2133,7 +2133,7 @@ label.error {
   [data-section='accordion'] > section,
   [data-section='accordion'] > .section,
   [data-section='accordion'] > [data-section-region], .section-container.accordion > section, .section-container.accordion > .section, .section-container.accordion > [data-section-region] {
-    margin: 0; }
+    margin: 1; }
     [data-section=''] > section > [data-section-title], [data-section=''] > section > .title, [data-section=''] > .section > [data-section-title], [data-section=''] > .section > .title, [data-section=''] > [data-section-region] > [data-section-title], [data-section=''] > [data-section-region] > .title, [data-section='auto'] > section > [data-section-title], [data-section='auto'] > section > .title, [data-section='auto'] > .section > [data-section-title], [data-section='auto'] > .section > .title, [data-section='auto'] > [data-section-region] > [data-section-title], [data-section='auto'] > [data-section-region] > .title, .section-container.auto > section > [data-section-title], .section-container.auto > section > .title, .section-container.auto > .section > [data-section-title], .section-container.auto > .section > .title, .section-container.auto > [data-section-region] > [data-section-title], .section-container.auto > [data-section-region] > .title,
     [data-section='vertical-tabs'] > section > [data-section-title],
     [data-section='vertical-tabs'] > section > .title,
@@ -2286,7 +2286,7 @@ label.error {
 .section-container.vertical-nav,
 .section-container.horizontal-nav,
 .section-container.accordion {
-  border-top: 1px solid #cccccc; }
+  border-top: 0px solid #cccccc; }
   .section-container.auto > section > .title, .section-container.auto > .section > .title,
   .section-container.vertical-tabs > section > .title,
   .section-container.vertical-tabs > .section > .title,
@@ -2296,9 +2296,9 @@ label.error {
   .section-container.horizontal-nav > .section > .title,
   .section-container.accordion > section > .title,
   .section-container.accordion > .section > .title {
-    background-color: #efefef;
+    background-color: #0d6bb5;
     cursor: pointer;
-    border: solid 1px #cccccc; }
+    border: solid 0px #cccccc; }
     .section-container.auto > section > .title a, .section-container.auto > .section > .title a,
     .section-container.vertical-tabs > section > .title a,
     .section-container.vertical-tabs > .section > .title a,
@@ -2309,7 +2309,7 @@ label.error {
     .section-container.accordion > section > .title a,
     .section-container.accordion > .section > .title a {
       padding: 0.9375em;
-      color: #333333;
+      color: #fff;
       font-size: 0.875em;
       background: none; }
     .section-container.auto > section > .title:hover, .section-container.auto > .section > .title:hover,
@@ -2321,7 +2321,7 @@ label.error {
     .section-container.horizontal-nav > .section > .title:hover,
     .section-container.accordion > section > .title:hover,
     .section-container.accordion > .section > .title:hover {
-      background-color: #e2e2e2; }
+      background-color: #034c8b; }
   .section-container.auto > section > .content, .section-container.auto > .section > .content,
   .section-container.vertical-tabs > section > .content,
   .section-container.vertical-tabs > .section > .content,
@@ -2333,7 +2333,7 @@ label.error {
   .section-container.accordion > .section > .content {
     padding: 0.9375em;
     background-color: white;
-    border: solid 1px #cccccc; }
+    border: solid 0px #cccccc; }
     .section-container.auto > section > .content > *:last-child, .section-container.auto > .section > .content > *:last-child,
     .section-container.vertical-tabs > section > .content > *:last-child,
     .section-container.vertical-tabs > .section > .content > *:last-child,
@@ -2373,7 +2373,7 @@ label.error {
   .section-container.horizontal-nav > .section.active > .title,
   .section-container.accordion > section.active > .title,
   .section-container.accordion > .section.active > .title {
-    background: #d5d5d5; }
+    background: #034c8b; }
     .section-container.auto > section.active > .title a, .section-container.auto > .section.active > .title a,
     .section-container.vertical-tabs > section.active > .title a,
     .section-container.vertical-tabs > .section.active > .title a,
@@ -2383,7 +2383,7 @@ label.error {
     .section-container.horizontal-nav > .section.active > .title a,
     .section-container.accordion > section.active > .title a,
     .section-container.accordion > .section.active > .title a {
-      color: #333333; }
+      color: #fff; }
   .section-container.auto > section:not(.active), .section-container.auto > .section:not(.active),
   .section-container.vertical-tabs > section:not(.active),
   .section-container.vertical-tabs > .section:not(.active),
