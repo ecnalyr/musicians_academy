@@ -2812,7 +2812,7 @@ label.error {
   height: 45px;
   line-height: 45px;
   position: relative;
-  background: #111111;
+  background: #156fb5;
   margin-bottom: 1.875em; }
   .top-bar ul {
     margin-bottom: 0;
@@ -2883,12 +2883,12 @@ label.error {
     height: auto;
     background: transparent; }
     .top-bar.expanded .title-area {
-      background: #111111; }
+      background: #156fb5; }
     .top-bar.expanded .toggle-topbar a {
-      color: #888888; }
+      color: #000; }
       .top-bar.expanded .toggle-topbar a span {
-        -webkit-box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888;
-        box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888; }
+        -webkit-box-shadow: 0 10px 0 1px #000, 0 16px 0 1px #000, 0 22px 0 1px #000;
+        box-shadow: 0 10px 0 1px #000, 0 16px 0 1px #000, 0 22px 0 1px #000; }
 
 .top-bar-section {
   left: 0;
@@ -2901,7 +2901,7 @@ label.error {
     width: 100%;
     height: auto;
     display: block;
-    background: #222222;
+    background: #156fb5;
     font-size: 16;
     margin: 0; }
   .top-bar-section .divider,
@@ -2919,7 +2919,7 @@ label.error {
     padding-left: 15px;
     font-size: 0.8125em;
     font-weight: bold;
-    background: #222222; }
+    background: #156fb5; }
     .top-bar-section ul li > a.button {
       background: #2ba6cb;
       font-size: 0.8125em; }
@@ -3083,10 +3083,10 @@ label.error {
         line-height: 1;
         white-space: nowrap;
         padding: 7px 15px;
-        background: #1e1e1e; }
+        background: #156fb5; }
       .top-bar-section .dropdown li label {
         white-space: nowrap;
-        background: #1e1e1e; }
+        background: #156fb5; }
       .top-bar-section .dropdown li .dropdown {
         left: 100%;
         top: 0; }
