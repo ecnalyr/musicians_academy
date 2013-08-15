@@ -204,5 +204,6 @@ h3 {
 
 .blue-white-bg {
 	background-image:url('../images/version_a/why_us_background.jpg');
+	background-repeat:repeat-x;
 }
 
