@@ -184,6 +184,19 @@ ul {
 	letter-spacing: 1px;
 }
 
+.selling-point {
+	opacity:0.7;
+}
+
+.selling-point:hover { 
+	opacity:1.0;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.course-image:hover {
+	opacity:0.7;
+}
+
 /* -----------------------------------------
    FAQ
 ----------------------------------------- */
