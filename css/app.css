@@ -98,6 +98,10 @@ h1 {
 	margin-top: 30px;
 }
 
+ul {
+   list-style-position: inside;
+}
+
 
 
 /* -----------------------------------------
@@ -215,7 +219,4 @@ h1 {
    Instruments
 ----------------------------------------- */
 
-.instrument-sidebar a {
-	color: #000;
-}
 
