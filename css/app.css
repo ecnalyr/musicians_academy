@@ -102,6 +102,10 @@ h1 {
 	margin-top: 75px;
 }
 
+.info a {
+	color: #0d6bb5;
+}
+
 ul {
    list-style-position: inside;
 }

@@ -1321,8 +1321,8 @@ button, .button {
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
   font-size: 1em;
-  background-color: #2ba6cb;
-  border-color: #2284a1;
+  background-color: #0d6bb5;
+  border-color: #0d6bb5;
   color: white; }
   button:hover, button:focus, .button:hover, .button:focus {
     background-color: #2284a1; }
