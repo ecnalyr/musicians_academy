@@ -270,4 +270,12 @@ div.accordion > section.active .title a::before {
    Instruments
 ----------------------------------------- */
 
+/* -----------------------------------------
+   Events
+----------------------------------------- */
+
+.events-overview a {
+	color: #034c8b;
+}
+
 
