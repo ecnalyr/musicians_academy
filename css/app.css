@@ -49,6 +49,10 @@
 	padding-top: 15px;
 }
 
+.bot-padded {
+	padding-bottom: 15px;
+}
+
 .logo-div {
 	background-color: white;
 }
