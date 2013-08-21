@@ -1,8 +1,8 @@
-/* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
-/* zurb.com */
+/* The Musician's Academy website was made by Lost Tie LLC, a web development company in Corpus Christi, TX */
+/* losttie.com */
 /* humanstxt.org */
 
 /* SITE */
   Standards: HTML5, CSS3
-  Components: jQuery, Orbit, Reveal
-  Software: Coda, Textmate, Git
+  Components: Zurb's Foundation 4, jQuery, Orbit, Reveal
+  Software: Sublime Text2, Git
