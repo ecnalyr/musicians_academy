@@ -221,6 +221,28 @@ ul {
 	color: white;
 }
 
+div.accordion > section .title a::before {
+	content: "";
+    display: inline-block;
+    width: 0; 
+	height: 0; 
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	
+	border-left: 6px solid #9D9D9D;
+	margin-right: 5px;
+}
+
+div.accordion > section.active .title a::before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: solid 6px;
+    border-color: #9D9D9D transparent transparent transparent;
+    margin-right: 5px;
+}
+
 /* -----------------------------------------
    Why Us?
 ----------------------------------------- */
