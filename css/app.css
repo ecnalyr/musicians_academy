@@ -257,6 +257,12 @@ div.accordion > section.active .title a::before {
 	background-image:url('../images/version_a/why_us_background.jpg');
 	background-repeat:repeat-x;
 	height: 390px;
+	width: 110%;
+}
+
+.blue-white-bg p{
+	width: 90%;
+	padding-left: 5%;
 }
 
 /* -----------------------------------------
