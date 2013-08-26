@@ -256,13 +256,22 @@ div.accordion > section.active .title a::before {
 .blue-white-bg {
 	background-image:url('../images/version_a/why_us_background.jpg');
 	background-repeat:repeat-x;
-	height: 390px;
-	width: 110%;
 }
 
 .blue-white-bg p{
-	width: 90%;
-	padding-left: 5%;
+}
+
+@media only screen and (min-width: 1280px) {
+
+	.blue-white-bg {
+	height: 390px;
+	width: 110%;
+	}
+
+	.blue-white-bg p{
+		width: 90%;
+		padding-left: 5%;
+	}
 }
 
 /* -----------------------------------------
