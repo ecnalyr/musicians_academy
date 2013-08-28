@@ -190,6 +190,11 @@ ul {
 	z-index: 1;
 }
 
+.bubble p{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
 .quotee {
 	color: #156fb5;
 	font-family: "bebas_neueregular";
