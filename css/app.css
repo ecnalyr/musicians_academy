@@ -291,7 +291,7 @@ div.accordion > section.active .title a::before {
 	color: black;
 }
 #map-canvas img { 
-	max-width: none; height: auto 
+	max-width: none;
 }
 
 /* -----------------------------------------
