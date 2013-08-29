@@ -2044,8 +2044,7 @@ label.error {
 /* Flex Video */
 .flex-video {
   position: relative;
-  padding-top: 1.5625em;
-  padding-bottom: 67.5%;
+  padding-bottom: 55.5%;
   height: 0;
   margin-bottom: 1em;
   overflow: hidden; }
