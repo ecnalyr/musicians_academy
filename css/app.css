@@ -107,11 +107,13 @@ h1 {
 }
 
 ul {
-   list-style-position: inside;
+	list-style-position: inside;
 }
 
 ol {
-   list-style-position: inside;
+	list-style-position: inside;
+	text-indent: -18px;
+ 	padding-left: 18px;
 }
 .highlight {
 	background: yellow;
