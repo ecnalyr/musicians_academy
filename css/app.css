@@ -295,9 +295,16 @@ div.accordion > section.active .title a::before {
 .sub-map a {
 	color: black;
 }
+
 #map-canvas img { 
 	max-width: none;
 }
+
+#directions-link {
+	color: red;
+	text-decoration: underline;
+}
+
 
 /* -----------------------------------------
    Instruments
