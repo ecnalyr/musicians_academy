@@ -310,6 +310,13 @@ div.accordion > section.active .title a::before {
    Instruments
 ----------------------------------------- */
 
+.instrument {
+	background-image:url("../images/version_a/logo.png");
+  	background-repeat:no-repeat;
+  	background-position:left bottom; /* or 0% 100% */
+  	background-image-opacity: .7;
+}
+
 /* -----------------------------------------
    Events
 ----------------------------------------- */
