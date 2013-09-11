@@ -96,6 +96,9 @@
           <li>
             <img src="images/version_a/slider/slider_image3.jpg" alt="No contracts, no need to bring your own instrument, open 7 days a week." />
           </li>
+          <li>
+            <img src="images/version_a/slider/storefront.png" alt="No contracts, no need to bring your own instrument, open 7 days a week." />
+          </li>
         </ul>
       </div>
     </div>
@@ -433,47 +436,8 @@
   </script>
   
   <script src="js/foundation.min.js"></script>
-  <!--
-  
-  <script src="js/foundation/foundation.js"></script>
-  
-  <script src="js/foundation/foundation.interchange.js"></script>
-  
-  <script src="js/foundation/foundation.abide.js"></script>
-  
-  <script src="js/foundation/foundation.dropdown.js"></script>
-  
-  <script src="js/foundation/foundation.placeholder.js"></script>
-  
-  <script src="js/foundation/foundation.forms.js"></script>
-  
-  <script src="js/foundation/foundation.alerts.js"></script>
-  
-  <script src="js/foundation/foundation.magellan.js"></script>
-  
-  <script src="js/foundation/foundation.reveal.js"></script>
-  
-  <script src="js/foundation/foundation.tooltips.js"></script>
-  
-  <script src="js/foundation/foundation.clearing.js"></script>
-  
-  <script src="js/foundation/foundation.cookie.js"></script>
-  
-  <script src="js/foundation/foundation.joyride.js"></script>
-  
-  <script src="js/foundation/foundation.orbit.js"></script>
-  
-  <script src="js/foundation/foundation.section.js"></script>
-  
-  <script src="js/foundation/foundation.topbar.js"></script>
-  
-  -->
   
   <script>
-    $(document).foundation();
-  </script>
-  
-  <script type="text/javascript">
     $(document).foundation('orbit', {
       animation: 'fade',
       timer_speed: 3000,
@@ -481,7 +445,7 @@
       animation_speed: 500,
       stack_on_small: true,
       navigation_arrows: true,
-      slide_number: true,
+      slide_number: false,
       container_class: 'orbit-container',
       stack_on_small_class: 'orbit-stack-on-small',
       next_class: 'orbit-next',
@@ -502,6 +466,19 @@
       before_slide_change: function(){},
       after_slide_change: function(){}
     });
+    $(".orbit-container").mouseenter(function(){
+      $("a.orbit-prev, a.orbit-next").stop().animate({'opacity':'1'}, 400);
+    }).mouseleave(function(){
+      $("a.orbit-prev, a.orbit-next").stop().animate({'opacity':'0'}, 400);
+    });
+  </script>
+  <style type="text/css">
+    .orbit-prev{opacity:0;}
+    .orbit-next{opacity:0;}
+  </style>
+  
+  <script type="text/javascript">
+    
   </script>
   <script type="text/javascript">
     var _gaq = _gaq || [];
