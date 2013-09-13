@@ -11,6 +11,7 @@ if(empty($_POST['name'])  ||
 $name = $_POST['name']; 
 $email_address = $_POST['email'];
 $source = $_POST['source'];
+$phone = $_POST['phone'];
 $question = $_POST['question']; 
  
 if (!preg_match(
@@ -33,6 +34,8 @@ $email_body = "You have received a new question. ".
 " Here are the details:\n Name: $name \n ".
 
 "Source: $source \n".
+
+"Phone: $phone \n".
  
 "Email: $email_address\n Question \n $question";
  
