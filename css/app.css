@@ -312,7 +312,7 @@ div.accordion > section.active .title a::before {
 
 @media only screen and (min-width: 1280px) {
 	.instrument {
-		background-image:url("../images/version_a/courses_images/banner4-35%.png");
+		background-image:url("../images/version_a/courses_images/banner4-10%.png");
 	  	background-repeat:no-repeat;
 	  	background-position:0% 75%; /* left bottom */
 	  	background-image-opacity: .7;
